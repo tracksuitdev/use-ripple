@@ -1,0 +1,22 @@
+.ripple {
+  position: absolute;
+  border-radius: 9999px;
+  transform: scale(0);
+  animation: ripple 600ms linear;  /* if you change the duration of animation, change the duration parameter of useRipple hook */
+}
+
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.ripple-parent {
+  position: relative;
+  overflow: hidden;
+}
