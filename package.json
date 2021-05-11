@@ -11,6 +11,9 @@
   "engines": {
     "node": ">=10"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -34,7 +37,7 @@
     "singleQuote": false,
     "trailingComma": "es5"
   },
-  "name": "use-ripple",
+  "name": "@tracksuitdev/use-ripple",
   "author": "tracksuitdev",
   "module": "dist/use-ripple.esm.js",
   "size-limit": [
