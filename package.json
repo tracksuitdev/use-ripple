@@ -26,6 +26,7 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "keywords": ["react", "ripple", "useRipple", "animation", "hooks"],
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
