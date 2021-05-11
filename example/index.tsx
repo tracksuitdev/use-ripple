@@ -1,7 +1,7 @@
 import "react-app-polyfill/ie11";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import "../src/index.css";
+import "../index.css";
 import "./style.css";
 import { useRipple } from "../src";
 
