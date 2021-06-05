@@ -5,7 +5,6 @@
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "src",
     "index.css"
   ],
   "engines": {
