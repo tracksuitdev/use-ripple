@@ -7,6 +7,19 @@ Returns array of objects containing width, height, left and top style properties
 Also includes ripple animation and default styles for ripple parent and ripple. You can use these styles (don't forget to specify ripple background-color yourself) or make your own, just be sure to adjust the duration parameter of useRipple hook if your custom animation has different duration.
 
 
+## Installation
+
+```bash
+npm install @tracksuitdev/use-ripple
+```
+
+or if you use yarn
+
+```bash
+yarn add @tracksuitdev/use-ripple
+```
+
+
 ## Usage
 
 ### Usage with default styles
